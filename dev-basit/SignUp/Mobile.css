@@ -6,6 +6,15 @@
   .logo{
     left: 20px;
   }
+  .logo img{
+    width: 40px;
+  }
+  .logo h4{
+    font-size: 20px;
+    font-weight: lighter;
+    bottom: 5px;
+    left: 3rem;
+  }
   .menu{
     display: block;
     left: 22rem;
@@ -38,14 +47,15 @@
      .formi .register .sign{
        width: 95%;
        margin-left: 10px;
-       padding: 20px;
+       padding: 10px;
+       background-color: lch(97.45% 1.06 18.86);
      }
     form .terms-and-services{
-	font-size: 16px;
-	color: #1c1a1a;
-	margin-bottom: 20px;
-    width: 95%;
-    margin-left: 10px;
+     	font-size: 16px;
+    	color: #1c1a1a;
+    	margin-bottom: 20px;
+      width: 95%;
+      margin-left: 10px;
      }
     .verify button{
 	width: 95%;
@@ -77,6 +87,53 @@
 	text-align: center;
     }
 }
-@media (max-width:390px) {
-    
+@media (max-width:395px) {
+     .menu{
+      left: 18rem;
+      bottom: 3px;
+     }
+     form{
+      margin-inline: 10px;
+     }  
+     .formi .start p{
+      margin-left: 8rem;
+     }
+    .register .sign{
+      width: 85% !important;
+     }
+     form .terms-and-services{
+        width: 85%;
+        font-size: 14px;
+     }
+     .verify button{
+      width: 85%;
+     }
+     .divider{
+      width: 85%;
+     }
+     .registerii .sign{
+      width: 85%;
+     }
+}
+@media (max-width:395px) {
+     .formi .start h4{
+      width: 85%;
+     }
+     .formi .start p{
+      margin-left: 7rem;
+     }
+     .register .sign{
+      width: 80% !important;
+     }
+     .registerii .sign{
+      width: 85%;
+      margin-left: 5px;
+     }
+     .verify button, .divider{
+      width: 80%;
+     }
+     .account{
+      width: 80%;
+      margin-left: 10px;
+     }
 }
