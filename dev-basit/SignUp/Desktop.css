@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	 font-family: 'DM Sans', sans-serif;
+	 height: 83rem;
+}
+.sigup-page{
+     background-image: url(./Asset/Gemini_Generated_Image_afm97tafm97tafm9\ \(1\)\ 1.png);
+    background-size:cover;
+}
+.logo{
+    position: relative;
+	top: 20px;
+    left: 6.5rem;
+}
+.logo h4{
+    position: absolute;
+    bottom: 10px;
+    left: 4.3rem;
+	font-size: 30px;
+}
+.menu{
+	position: absolute;
+	left: 20rem;
+	bottom: 12px;
+	display: none;
+}
+form{
+	border: 1px solid rgba(168, 57, 57, 0.3);
+	width: 25rem;
+	margin: 4rem 0px 2rem 8.7rem;
+	height:68rem;
+	overflow: hidden;
+	background-color: transparent;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(10px);   
+	 border-radius: 20px;
+}
+form .formi{
+	height: 100%;
+	margin-inline: 3rem;
+}
+.formi .start h4{
+   text-align: center;
+   margin-block: 20px;
+   font-size: 25px;
+}
+.formi .start p{
+    border: none;
+	text-align: center;
+	padding: 30px;
+	width: 40%;
+	margin: 0px 0px 20px 6rem;
+	border-radius: 50%;
+	background-color: rgb(188, 186, 186);
+}
+.formi .start input{
+	display: none;
+}
+.formi .register .sign{
+	background-color: #fff;
+	margin-bottom: 1rem;
+	font-size: 25px;
+	padding: 10px;
+	border-radius: 30px;
+	box-shadow: 1px 3px 1px rgb(183, 178, 178);
+}
+.formi .register .fill{
+	border: none;
+	outline: none;
+	padding: 7px;
+	width: 70%;
+	background-color: transparent;
+}
+.register label{
+	color: rgb(140, 133, 133);
+}
+form .terms-and-services{
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+form .terms-and-services input{
+	width: 20px;
+	height: 20px;
+}
+.terms-and-services span{
+	color: rgb(6, 133, 6);
+}
+.verify{
+    margin-bottom: 10px;
+}
+.verify button{
+	width: 100%;
+	background-color: rgb(5, 108, 5);
+	border: none;
+	border-radius: 15px;
+	color: white;
+	cursor: pointer;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+.verify button:hover{
+	background-color: rgb(46, 242, 46);
+}
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0px 3rem 20px 0px;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #000;
+ }
+ .divider:not(:empty)::before {
+  margin-right: 10px; 
+}
+
+.divider:not(:empty)::after {
+  margin-left: 10px; 
+}
+.divider span {
+  font-weight: bold;
+  color: #fff;
+} 
+.registerii .sign{
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 1.5rem;
+	border: 2px solid rgb(154, 151, 151);
+    border-radius: 30px;
+}
+.sign a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 900;
+}
+.sign .fa-google, .fa-facebook{
+	position: relative;
+	right: 2rem;
+} 
+.sign .fa-linkedin{
+position: relative;
+right: 5rem;
+}
+.registerii .sign:hover{
+	background-color: rgb(204, 250, 235);
+	cursor: pointer;
+}
+.account{
+	color: #fefcfc;
+	text-align: center;
+} 
+.account a{
+	color: rgb(8, 185, 8);
+	text-decoration: none;
+}
