@@ -135,10 +135,10 @@
     order: 2;
     } 
     footer .form{
-     order: 3;
+     order: 4;
     } 
     footer .help{
-     order: 4;
+     order: 3;
     } 
     footer .terms{
         display: flex;

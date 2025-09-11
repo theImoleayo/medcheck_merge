@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
 }
-.ourteam{
-    width: 80rem;
-    overflow: hidden;
+.faqs{
      font-family: 'DM Sans', sans-serif;
+	 background-color: #fafafa;
+	 overflow-x: hidden;
+     width: 83rem;
 }
 nav .logo{
     position: relative;
     left: 4rem;
-    bottom: 15px;
+	bottom: 3px;
 }
 nav .logo p{
    position: absolute;
@@ -23,18 +24,15 @@ nav .logo p{
 nav{
     padding-top: 30px;
     display: flex;
-    gap: 5rem;
+    gap: 9rem;
 }
 nav .more ul{
     list-style: none;
     height: 3rem;
      padding: 10px;
-     margin-left: 17rem;
+     margin-left: 19rem;
      font-size: 18px;
-}
-nav .more ul li{
-    float: left;
-    margin-inline: 2rem;
+     display: flex;
 }
 nav ul li a {
     text-decoration: none;
@@ -49,7 +47,7 @@ nav .more ul li:hover a{
 nav .icon{
     position: relative;
     bottom: 20px;
-    left: 10rem;
+    left: 14rem;
 }
 nav .icon .notification{
     position: absolute;
@@ -74,8 +72,9 @@ nav .expand .dropdowni{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    top: 5rem;
+    top: 3rem;
     background-color: #fff;
+	border: 2px solid rgb(239, 237, 237);
     position: absolute;
     width: 10rem;
     right: 4rem;
@@ -101,7 +100,7 @@ nav .notification .dropdown{
   position: absolute;
   width: 30rem;
   left: -5rem;
-  top: 5rem;
+  top: 3rem;
   padding: 10px;
    background-color: #fff;
   border: 2px solid rgb(224, 219, 219);
@@ -149,8 +148,8 @@ nav .menuicon .options{
         left: -10rem;
         top: 5rem;
         display: none;
-    }
-    nav .menuicon .menu{
+}
+nav .menuicon .menu{
         display: flex;
         flex-direction: column;
         background-color: #fff;
@@ -158,88 +157,86 @@ nav .menuicon .options{
         border: 2px solid rgb(223, 219, 219);
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px;
-    }
+}
 section{
-    background-color: #005f00;
-    height: 25rem;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    font-size: 35px;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 12rem;
+}
+section .pics{
+	border: 6px dashed rgb(198, 194, 194);
+    border-radius: 50%;
+	padding: 5px 5px 10px 3px;
+	width: 50rem;
+	margin-left: -13rem;
+	box-shadow: 2px 2px 2px #8f8b8b;
+	margin-bottom: 2rem;
+}
+section .pics img{
+	width: 98%;
+	border-radius: 50%;
+}
+section .content{
+	width: 50%;
+	height: 53rem;
+	margin-bottom: 2rem;
 }
 section h3{
-    margin-block: 7rem;;
-    margin-left: 2rem;
+	font-size: 31px;
+	margin-bottom: 3rem ;
+    margin-left: 1rem;
+    color: #424242;
+}
+section .big-question {
+  color: red;  
+}
+
+section .medcheck{
+	margin-bottom: 1rem;
+	padding: 15px;
+	position: relative;
+	font-size: 22px;
+	background-color: #fff;
+    width: 90%;
 }
 section p{
-    width: 51%;
+    width: 550px;
+}
+section .medcheck span{
+   position: absolute;
+   right: 20px;
+}
+section .medcheck .a-rrow{
+	bottom: 5px;
+    right: 1px;
+	position: absolute;
+}
+.arrowdown{
+	display: none;
+}
+section .medcheck ul{
+ list-style: none;
+}
+section .medcheck:hover .arrowdown{
+	display: block;
+}
+section .medcheck:hover{
+	background-color: #15d218;
+	cursor: pointer;
+}
+article{
+    width: 50%;
+    margin:20px 22rem ;
     text-align: center;
-    margin-bottom: 3rem;
-    margin-left: 3rem;
-}
-.frameparent{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 4rem;
-   margin-block: 5rem;
-   padding-block: 30px;
-   padding-left: 3rem;
-}
-.frame{
-    border-radius: 25px;
-  	background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px 10px 10px 40px;
-    display: flex;
-}
-.frame .name{
-    text-align: center;
-    margin-block: 20px;
-}
-.frame .role{
-   text-align: center;
-}
-.frame .content {
- display: none;
- width: 485px;
-}
-.frame .content h3{
-    font-size: 35px;
-    margin-bottom: 20px;
-}
-.frame .content .pro{
-    margin-bottom: 30px;
-    font-size: 25px;
-}
-.frame .content .project-manager{
-    font-size: 25px;
-    width: 372px;
-    margin-bottom: 2rem;
-}
-.frame:hover .content{
-   display: block;
-}
-.frame:hover .name, 
-.frame:hover .role{
+    background-color: #005f00;
+    color: #fafafa;
+    padding: 20px;
     display: none;
-}
-.frame:hover .framei img{
-    position: relative;
-    right: 30px;
-    bottom: 10px;
-}
-.frame .handle{
-    display: flex;
-    gap: 4rem;
-    font-size: 25px;
 }
 footer{
     background-color: #005f00;
-    height: 42rem;
+    height: 41rem;
     color: #fff;
 }
 footer .medlogo{
@@ -269,7 +266,7 @@ footer .subscribe{
      margin-bottom: 3rem;
 }
 footer .mail{
-    width: 370px;
+    width: 360px;
     border-bottom: 2px solid rgb(95, 89, 89);
     font-size: 20px;
 }
@@ -283,23 +280,24 @@ footer .mail input{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 20px;;
+    font-size: 20px;
 }
 footer button{
     border: none;
     background-color: #a4fca4;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 3rem;
+	width: 3rem;
 	height: 40px;
 }
+
 footer a{
    width: 150px;
    color: #fff;
    text-decoration: none;
 }
 footer .differ{
-    color: #85e485;
+    color:  #83fc9d;
 }
 footer .terms{
     display: flex;
@@ -307,7 +305,7 @@ footer .terms{
     padding: 3rem;
     width: 90%;
     margin: auto;
-    font-size: 20px;
+    font-size: 19px;
 }
 footer .terms .privacy{
     margin-left: 3rem;
